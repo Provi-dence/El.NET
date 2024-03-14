@@ -13,5 +13,10 @@ namespace ELNET_PROJECT
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EventReq.aspx");
+        }
     }
 }
